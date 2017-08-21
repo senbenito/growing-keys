@@ -23,7 +23,7 @@ describe('growingKeys', function() {
 
   it('returns an object when given valid inputs', function() {
     assert.typeOf(lib.growingKeys(2,'d'), 'object', 'growingKeys outputs an object');
-    expect(lib.growingKeys(2,'d')).to.equal(good2DResult);
+    assert.deepEqual(lib.growingKeys(2,'d'), good2DResult);
   });
 
 

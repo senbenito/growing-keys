@@ -8,10 +8,8 @@ exports.growingKeys = function(num, string) {
   let results = {};
   let pushString = string;
   for (let i=0; i<num; i++){
-    // results[`${pushString}`] = true;
     results[pushString] = true;
     pushString += string;
   }
-  console.log(results, typeof results);
   return results;
 };
