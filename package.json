@@ -1,0 +1,24 @@
+{
+  "name": "growing-keys",
+  "version": "1.0.0",
+  "description": "solar eclipse warmup",
+  "main": "growingKeys.js",
+  "scripts": {
+    "test": "mocha ./tests/growingKeys-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senbenito/growing-keys.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senbenito/growing-keys/issues"
+  },
+  "homepage": "https://github.com/senbenito/growing-keys#readme",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
